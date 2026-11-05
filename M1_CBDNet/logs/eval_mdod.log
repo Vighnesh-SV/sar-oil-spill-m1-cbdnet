@@ -1,0 +1,30 @@
+== M1_cbdnet_sentinel_dicebce_s0
+images 0/2336  boxes kept {2: 1, 3: 1}
+images 200/2336  boxes kept {2: 94, 3: 240, 1: 83, 5: 29, 4: 22}
+images 400/2336  boxes kept {2: 191, 3: 370, 1: 127, 5: 156, 4: 36}
+images 600/2336  images 200/2940  boxes kept {2: 125, 3: 310, 1: 114, 5: 33, 4: 31}
+  boxes kept {2: 363, 3: 395, 1: 218, 5: 310, 4: 234}
+images 1000/2336  boxes kept {2: 400, 3: 400, 1: 275, 5: 395, 4: 338}
+images 1200/2336  boxes kept {2: 400, 3: 400, 1: 311, 5: 400, 4: 391}
+class            n   alert@0.02  alert@0.2   mean  peak   AUC(mean) AUC(peak) oil-vs-class
+biogenic slick   400   0.970      0.713      0.364 0.973  0.345     0.101
+low wind         400   0.998      0.995      0.644 0.997  0.155     0.036
+oil spill        400   0.640      0.420      0.273 0.639  nan     nan
+rain cell        400   0.917      0.650      0.342 0.917  0.379     0.207
+sea ice          400   0.968      0.833      0.521 0.968  0.250     0.097
+AUC oil vs all look-alikes: mean 0.282  peak 0.11
+== M1_cbdnet_sentinel_dicebce_s0_groupsplit
+images 0/2336  boxes kept {2: 1, 3: 1}
+images 200/2336  boxes kept {2: 94, 3: 240, 1: 83, 5: 29, 4: 22}
+images 400/2336  boxes kept {2: 191, 3: 370, 1: 127, 5: 156, 4: 36}
+images 600/2336  boxes kept {2: 299, 3: 381, 1: 163, 5: 246, 4: 104}
+images 800/2336  boxes kept {2: 363, 3: 395, 1: 218, 5: 310, 4: 234}
+images 1000/2336  boxes kept {2: 400, 3: 400, 1: 275, 5: 395, 4: 338}
+images 1200/2336  boxes kept {2: 400, 3: 400, 1: 311, 5: 400, 4: 391}
+class            n   alert@0.02  alert@0.2   mean  peak   AUC(mean) AUC(peak) oil-vs-class
+biogenic slick   400   0.932      0.570      0.273 0.947  0.390     0.125
+low wind         400   0.983      0.968      0.556 0.984  0.195     0.058
+oil spill        400   0.555      0.385      0.254 0.570  nan     nan
+rain cell        400   0.870      0.545      0.288 0.875  0.404     0.238
+sea ice          400   0.910      0.660      0.355 0.919  0.350     0.157
+AUC oil vs all look-alikes: mean 0.335  peak 0.144

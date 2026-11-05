@@ -1,0 +1,58 @@
+M1_cbdnet_sentinel_dicebce_s0_groupsplit: 3358 train tiles, 840 iters/epoch
+epoch   1  loss 0.7373  lr 2.0e-04  111s  *
+epoch   2  loss 0.5877  lr 2.0e-04  208s  *
+epoch   3  loss 0.5290  lr 2.0e-04  306s  *
+epoch   4  loss 0.5029  lr 2.0e-04  415s  *
+epoch   5  loss 0.4814  lr 2.0e-04  533s  *
+epoch   6  loss 0.4700  lr 2.0e-04  626s  *
+epoch   7  loss 0.4513  lr 2.0e-04  719s  *
+epoch   8  loss 0.4648  lr 2.0e-04  814s
+epoch   9  loss 0.4532  lr 2.0e-04  909s
+epoch  10  loss 0.4342  lr 2.0e-04  1004s  *
+epoch  11  loss 0.4396  lr 2.0e-04  1100s
+epoch  12  loss 0.4388  lr 2.0e-04  1194s
+epoch  13  loss 0.4240  lr 2.0e-04  1288s  *
+epoch  14  loss 0.4414  lr 2.0e-04  1377s
+epoch  15  loss 0.4260  lr 2.0e-04  1465s
+epoch  16  loss 0.4262  lr 2.0e-04  1556s
+epoch  17  loss 0.4236  lr 2.0e-04  1648s  *
+epoch  18  loss 0.4233  lr 2.0e-04  1742s  *
+epoch  19  loss 0.4148  lr 2.0e-04  1837s  *
+epoch  20  loss 0.4167  lr 2.0e-04  1923s
+epoch  21  loss 0.4203  lr 2.0e-04  2009s
+epoch  22  loss 0.4059  lr 2.0e-04  2096s  *
+epoch  23  loss 0.4062  lr 2.0e-04  2183s
+epoch  24  loss 0.4028  lr 2.0e-04  2267s  *
+epoch  25  loss 0.4109  lr 2.0e-04  2362s
+epoch  26  loss 0.4004  lr 2.0e-04  2457s  *
+epoch  27  loss 0.4039  lr 2.0e-04  2553s
+epoch  28  loss 0.4150  lr 2.0e-04  2649s
+epoch  29  loss 0.4079  lr 2.0e-04  2743s
+epoch  30  loss 0.4007  lr 2.0e-04  2833s
+  lr -> 4.0e-05 (reloaded best)
+epoch  31  loss 0.3800  lr 4.0e-05  2900s  *
+epoch  32  loss 0.3786  lr 4.0e-05  2970s  *
+epoch  33  loss 0.3765  lr 4.0e-05  3062s  *
+epoch  34  loss 0.3756  lr 4.0e-05  3156s  *
+epoch  35  loss 0.3728  lr 4.0e-05  3250s  *
+epoch  36  loss 0.3784  lr 4.0e-05  3345s
+epoch  37  loss 0.3737  lr 4.0e-05  3440s
+epoch  38  loss 0.3785  lr 4.0e-05  3534s
+epoch  39  loss 0.3737  lr 4.0e-05  3628s
+  lr -> 8.0e-06 (reloaded best)
+epoch  40  loss 0.3677  lr 8.0e-06  3723s  *
+epoch  41  loss 0.3700  lr 8.0e-06  3817s
+epoch  42  loss 0.3695  lr 8.0e-06  3912s
+epoch  43  loss 0.3689  lr 8.0e-06  4006s
+epoch  44  loss 0.3722  lr 8.0e-06  4101s
+  lr -> 1.6e-06 (reloaded best)
+epoch  45  loss 0.3735  lr 1.6e-06  4195s
+  lr -> 3.2e-07 (reloaded best)
+epoch  46  loss 0.3670  lr 3.2e-07  4290s  *
+epoch  47  loss 0.3725  lr 3.2e-07  4384s
+epoch  48  loss 0.3676  lr 3.2e-07  4478s
+epoch  49  loss 0.3727  lr 3.2e-07  4572s
+epoch  50  loss 0.3782  lr 3.2e-07  4667s
+done M1_cbdnet_sentinel_dicebce_s0_groupsplit best train loss 0.36704
+[tta] acc 0.9216  P 0.8659  R 0.8701  F1 0.8680  IoU_oil 0.7668  mIoU 0.8306  F1_bg(official) 0.9442  BF1 0.4552  AUC 0.9751  ECE 0.0264  Brier 0.0584
+[plain] acc 0.9191  P 0.8626  R 0.8647  F1 0.8637  IoU_oil 0.7600  mIoU 0.8256  F1_bg(official) 0.9425  BF1 0.4465  AUC 0.9725  ECE 0.0324  Brier 0.0607

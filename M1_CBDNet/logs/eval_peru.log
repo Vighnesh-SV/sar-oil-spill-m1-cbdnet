@@ -1,0 +1,18 @@
+== M1_cbdnet_sentinel_dicebce_s0
+0/2013
+400/2013
+800/2013
+1200/2013
+1600/2013
+2000/2013
+[peru all: 2013 patches] P 0.1400  R 0.9682  F1 0.2446  IoU_oil 0.1394  mIoU 0.3716  ECE 0.2647  look-alike->oil 0.8985
+[peru official_test: 338 patches] P 0.0926  R 0.9648  F1 0.1690  IoU_oil 0.0923  mIoU 0.3741  ECE 0.2346  look-alike->oil 0.8653
+== M1_cbdnet_sentinel_dicebce_s0_groupsplit
+0/2013
+400/2013
+800/2013
+1200/2013
+1600/2013
+2000/2013
+[peru all: 2013 patches] P 0.1741  R 0.9529  F1 0.2944  IoU_oil 0.1726  mIoU 0.4351  ECE 0.1862  look-alike->oil 0.8599
+[peru official_test: 338 patches] P 0.1115  R 0.9490  F1 0.1996  IoU_oil 0.1109  mIoU 0.4175  ECE 0.1767  look-alike->oil 0.8349
