@@ -16,6 +16,7 @@ Method 1 of a three-method study (M2: Improved DeepLabV3+ → [sar-oil-spill-m2-
 | Peru, all 2,013 patches | official split | 62.78 | 14.00 | 96.82 | 24.46 | 13.94 | 37.16 | 0.265 | 0.292 | −4.000 |
 | Peru, all 2,013 patches | leak-free split | 71.56 | 17.41 | 95.29 | 29.44 | 17.26 | 43.51 | 0.186 | 0.220 | −2.770 |
 | Published (independent re-run reported with FCS-Net) | official split | — | — | — | 87.81 | — | 82.94 | — | — | — |
+| Published (CBD-Net paper's own Table III, joint loss) | official split | — | 91.20 | 87.32 | 87.87 | — | 83.42 | — | — | — |
 
 MDOD (400 boxes per class): oil boxes flagged 64.0 % / 55.5 % (leaky / leak-free model), look-alike boxes 87–100 %; AUC oil vs look-alikes 0.282 / 0.335 (below 0.5 = look-alikes score higher than oil).
 
@@ -85,7 +86,8 @@ Checked (details in `docs/Datasets_Checks_Critique_QA.docx`):
 Limitations:
 - One training seed per model; SOS differences under about 1 pp are within noise (bootstrap CIs in the docs).
 - The leak-free models were trained on train + val + calib (3,358 tiles), so no SOS data is held out for calibration. Any calibration or alert-threshold method must be fitted on Peru train (1,594 patches, 33 scenes) and reported only on Peru test (338 patches, 5 scenes).
-- Peru classes 0/3/4 and the MDOD class IDs are inferred, not documented by the dataset authors (they affect only the per-class tables).
+- Peru class IDs are confirmed by the dataset authors' paper. The MDOD class IDs are inferred: oil = 3 is well supported by the box counts, low wind vs rain cell (2 vs 4) is not. They affect only the per-class tables.
+- SOS Sentinel-1 comes from only 7 scenes (VV), so the leak-free split separates sea areas, not scenes. Peru patches overlap by 128 px within a scene, so overlapping pixels count more than once in pooled Peru metrics.
 
 ## Licence
 

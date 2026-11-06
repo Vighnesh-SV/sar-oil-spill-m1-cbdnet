@@ -13,7 +13,7 @@
 | Accuracy | 91.24 % | — | |
 | Precision / recall (oil) | 84.43 % / 91.69 % | — | |
 
-**Verdict:** the reproduction succeeds. Both gaps are well within the ±2 pp target.
+**Verdict:** the reproduction succeeds. Both gaps are well within the ±2 pp target. CBD-Net's own paper [P24] reports mIoU 83.42 % and F1 87.87 % (trained with its joint boundary loss, which the released code does not use); against it the gaps are −0.63 / +0.04 pp.
 The full table, probability-quality metrics and figures are in [`results/sentinel_official_split/results.md`](results/sentinel_official_split/results.md).
 
 | Training curve | Per-tile IoU | Qualitative |
